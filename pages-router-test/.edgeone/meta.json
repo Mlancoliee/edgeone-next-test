@@ -1,0 +1,40 @@
+{
+  "conf": {
+    "headers": [],
+    "redirects": [],
+    "rewrites": [],
+    "caches": [],
+    "has404": false
+  },
+  "has404": false,
+  "nextRoutes": [
+    {
+      "path": "/_document"
+    },
+    {
+      "path": "/_app"
+    },
+    {
+      "path": "/about",
+      "isStatic": true
+    },
+    {
+      "path": "/api/hello"
+    },
+    {
+      "path": "/component",
+      "isStatic": true
+    },
+    {
+      "path": "/",
+      "isStatic": true
+    },
+    {
+      "path": "/_error"
+    },
+    {
+      "path": "/404",
+      "isStatic": true
+    }
+  ]
+}

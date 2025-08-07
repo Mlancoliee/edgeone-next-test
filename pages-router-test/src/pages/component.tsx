@@ -20,7 +20,7 @@ export default function PagesRouterTest() {
       <h1>Pages Router Components</h1>
 
       {/* 3. Form 组件测试 */}
-      <form action="/api/submit" method="POST">
+      <form action="/api/hello" method="POST">
         <input type="text" name="test" defaultValue="Form test" />
         <button type="submit">Submit</button>
       </form>
