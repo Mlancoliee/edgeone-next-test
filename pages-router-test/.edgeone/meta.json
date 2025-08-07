@@ -9,17 +9,17 @@
   "has404": false,
   "nextRoutes": [
     {
+      "path": "/_app"
+    },
+    {
       "path": "/_document"
     },
     {
-      "path": "/_app"
+      "path": "/api/hello"
     },
     {
       "path": "/about",
       "isStatic": true
-    },
-    {
-      "path": "/api/hello"
     },
     {
       "path": "/component",

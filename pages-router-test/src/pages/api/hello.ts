@@ -3,12 +3,11 @@ import type { NextApiRequest, NextApiResponse } from "next";
 
 type Data = {
   name: string;
-  body: any;
 };
 
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
 ) {
-  res.status(200).json({ name: "John Doe" ,body: req.body});
+  res.status(200).json({ name: "John Doe"});
 }
