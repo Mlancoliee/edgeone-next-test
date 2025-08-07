@@ -15,7 +15,6 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@tencent/edgeone": "^1.1.0-beta.27",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
